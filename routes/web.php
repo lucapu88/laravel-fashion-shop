@@ -13,4 +13,4 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/','ClothController@index')->name('pagina-vestiti');
+Route::get('/clothes', 'ClothController@index')->name('pagina-vestiti');
