@@ -14,3 +14,5 @@
 Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/clothes', 'ClothController@index')->name('pagina-vestiti');
+Route::get('/clothes/create', 'ClothController@create')->name('pagina-crea');
+Route::post('/clothes/create', 'ClothController@store')->name('store-product');
