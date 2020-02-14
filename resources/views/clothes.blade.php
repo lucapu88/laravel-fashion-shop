@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('content')
+@section('contain')
   <div class="container">
     <div class="row">
       @foreach ($prodotti as $prodotto)
